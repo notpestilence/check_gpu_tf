@@ -1,6 +1,6 @@
 ## TensorFlow GPU checker (in case I forgot)
 
-A love letter to my future self, and also for the poor souls not being able to access their GPUs with the new version of `tensorflow`, that is 2.11.0 [(ref)](https://stackoverflow.com/questions/75249688/how-to-use-the-gpu-with-tensorflow-2-11), downgrade to version 2.10 and follow these steps:
+A love letter to my future self, and also for the poor souls not being able to access their GPUs with the new version of `tensorflow`, that is 2.11.0 [(ref)](https://stackoverflow.com/questions/75249688/how-to-use-the-gpu-with-tensorflow-2-11), downgrade to version 2.10 following these steps:
 1. Run `conda create -n tf_gpu`, activate it immediately
 2. Run `pip install tensorflow==2.10`
 3. Run this particular script:
